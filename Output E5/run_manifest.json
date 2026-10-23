@@ -1,0 +1,44 @@
+{
+  "experiment": "E5 Conformal Prediction + Selective Abstention under LOSO",
+  "dataset_rows_known_group": 24248,
+  "excluded_missing_group": 1252,
+  "base_model": "group-blind ERM Logistic Regression",
+  "features": [
+    "Sleep_Hours",
+    "Study_Hours",
+    "Social_Media_Hours",
+    "Attendance",
+    "Exam_Pressure",
+    "Family_Support",
+    "Month"
+  ],
+  "groups": [
+    "college",
+    "school",
+    "working_student"
+  ],
+  "methods": [
+    "marginal",
+    "mondrian"
+  ],
+  "alphas": [
+    0.1,
+    0.05
+  ],
+  "nominal_coverages": [
+    0.9,
+    0.95
+  ],
+  "n_repeats": 5,
+  "source_split": {
+    "proper_train": 0.6,
+    "calibration": 0.2,
+    "source_check": 0.2
+  },
+  "selective_rule": "decide only for singleton conformal prediction sets",
+  "oracle": "target-label conformal recalibration diagnostic; non-deployable",
+  "seed": 42,
+  "python": "3.13.5",
+  "pandas": "2.2.3",
+  "sklearn": "1.8.0"
+}

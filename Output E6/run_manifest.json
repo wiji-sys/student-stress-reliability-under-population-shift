@@ -1,0 +1,43 @@
+{
+  "experiment": "E6 Capacity-Constrained Intervention Policy",
+  "dataset_rows_known_group": 24248,
+  "excluded_missing_group": 1252,
+  "base_model": "group-blind Logistic Regression",
+  "features": [
+    "Sleep_Hours",
+    "Study_Hours",
+    "Social_Media_Hours",
+    "Attendance",
+    "Exam_Pressure",
+    "Family_Support",
+    "Month"
+  ],
+  "groups": [
+    "college",
+    "school",
+    "working_student"
+  ],
+  "n_repeats": 5,
+  "source_calibration_fraction": 0.2,
+  "target_recall_constraint": 0.8,
+  "mondrian_alpha": 0.1,
+  "capacities": [
+    0.1,
+    0.15,
+    0.2,
+    0.25
+  ],
+  "capacity_policies": [
+    "RiskTopK",
+    "ConformalHighOnly",
+    "ConformalTriageTopK"
+  ],
+  "noncapacity_benchmarks": [
+    "SourceRecall80",
+    "MondrianSingletonHigh90"
+  ],
+  "seed": 42,
+  "python": "3.13.5",
+  "pandas": "2.2.3",
+  "sklearn": "1.8.0"
+}

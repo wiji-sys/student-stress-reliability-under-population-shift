@@ -1,0 +1,8 @@
+rule,invalid_n,invalid_pct
+Sleep_Hours_outside_0_24,0,0.0
+Study_Hours_outside_0_24,21,0.08235294117647059
+Social_Media_Hours_outside_0_24,0,0.0
+Attendance_outside_0_100,112,0.4392156862745098
+Exam_Pressure_outside_1_10,0,0.0
+Family_Support_outside_1_10,0,0.0
+Month_outside_1_12,0,0.0

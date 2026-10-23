@@ -1,0 +1,7 @@
+heldout_group,training_group,final_group_weight
+college,school,0.15443339323166602
+college,working_student,0.8455666067683341
+school,college,0.3902766165778843
+school,working_student,0.6097233834221157
+working_student,college,0.7781187805386207
+working_student,school,0.2218812194613793

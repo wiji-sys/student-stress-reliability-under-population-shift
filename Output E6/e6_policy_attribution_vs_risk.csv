@@ -1,0 +1,9 @@
+capacity,policy,delta_weighted_recall_vs_risk,delta_worst_group_recall_vs_risk,delta_precision_vs_risk,delta_lift_vs_risk,capacity_utilization
+0.1,ConformalHighOnly,0.0,0.0,0.0,0.0,1.0
+0.15,ConformalHighOnly,-0.010995684496215463,0.0,0.005096318485398488,0.024886401946945025,0.9713785262464854
+0.2,ConformalHighOnly,-0.037739766933897245,0.0,0.019776583090525324,0.09657324151504687,0.9165021883141151
+0.25,ConformalHighOnly,-0.05803949215767967,-0.08599447340352895,0.03386479799608477,0.16536897707577136,0.8835618101661318
+0.1,ConformalTriageTopK,0.0,0.0,0.0,0.0,1.0
+0.15,ConformalTriageTopK,0.0,0.0,0.0,0.0,1.0
+0.2,ConformalTriageTopK,0.0,0.0,0.0,0.0,1.0
+0.25,ConformalTriageTopK,0.0,0.0,0.0,0.0,1.0

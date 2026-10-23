@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code or derived outputs, please cite the associated manuscript and this repository."
+title: "Reliable Student Stress Prediction under Population Shift: Reproducibility Repository"
+type: software
+authors:
+  - family-names: "Wijiyanto"
+    given-names: "Wijiyanto"
+  - family-names: "Sumarlinda"
+    given-names: "Sri"
+  - family-names: "Wijaya"
+    given-names: "Alya Putri"
+version: "1.0.0"
+date-released: "2026-10-23"
+repository-code: "https://github.com/REPLACE_WITH_YOUR_USERNAME/REPLACE_WITH_REPOSITORY_NAME"

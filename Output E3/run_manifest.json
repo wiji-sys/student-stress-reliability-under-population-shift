@@ -1,0 +1,32 @@
+{
+  "experiment": "E3 Calibration Under Population Shift",
+  "dataset_rows": 25500,
+  "groupblind_features": [
+    "Sleep_Hours",
+    "Study_Hours",
+    "Social_Media_Hours",
+    "Attendance",
+    "Exam_Pressure",
+    "Family_Support",
+    "Month"
+  ],
+  "primary_model": "LogisticRegression",
+  "methods": [
+    "uncalibrated",
+    "sigmoid",
+    "isotonic"
+  ],
+  "iid_outer": "RepeatedStratifiedKFold 5 folds x 2 repeats",
+  "inner_calibration": "3-fold inner OOF base probabilities",
+  "loso_groups": [
+    "college",
+    "school",
+    "working_student"
+  ],
+  "n_bins": 10,
+  "bss_reference": "training-sample prevalence for each outer/LOSO model",
+  "seed": 42,
+  "python": "3.13.5",
+  "pandas": "2.2.3",
+  "sklearn": "1.8.0"
+}

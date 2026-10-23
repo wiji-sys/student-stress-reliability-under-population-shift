@@ -1,0 +1,30 @@
+{
+  "dataset_rows": 25500,
+  "dataset_columns": 9,
+  "seed": 42,
+  "iid_protocol": "RepeatedStratifiedKFold(5 folds x 2 repeats)",
+  "primary_model": "LogisticRegression",
+  "e1a_features": [
+    "Sleep_Hours",
+    "Study_Hours",
+    "Social_Media_Hours",
+    "Attendance",
+    "Exam_Pressure",
+    "Family_Support",
+    "Student_Type",
+    "Month"
+  ],
+  "e1b_e2_features": [
+    "Sleep_Hours",
+    "Study_Hours",
+    "Social_Media_Hours",
+    "Attendance",
+    "Exam_Pressure",
+    "Family_Support",
+    "Month"
+  ],
+  "e2_missing_group_rows_excluded": 1252,
+  "python": "3.13.5",
+  "pandas": "2.2.3",
+  "sklearn": "1.8.0"
+}

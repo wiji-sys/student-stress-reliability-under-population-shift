@@ -1,0 +1,34 @@
+{
+  "experiment": "E4 ERM vs GroupDRO + Threshold Adaptation",
+  "dataset_rows_known_group": 24248,
+  "excluded_missing_group": 1252,
+  "features": [
+    "Sleep_Hours",
+    "Study_Hours",
+    "Social_Media_Hours",
+    "Attendance",
+    "Exam_Pressure",
+    "Family_Support",
+    "Month"
+  ],
+  "group_variable": "Student_Type",
+  "objectives": [
+    "ERM",
+    "GroupDRO"
+  ],
+  "deployment_policies": [
+    "Fixed0.50",
+    "TrainRecall80"
+  ],
+  "diagnostic_oracle": "HeldoutOracleRecall80 (non-deployable)",
+  "target_recall": 0.8,
+  "inner_threshold_cv_folds": 3,
+  "epochs": 180,
+  "learning_rate": 0.035,
+  "l2": 0.0001,
+  "dro_eta": 0.1,
+  "seed": 42,
+  "python": "3.13.5",
+  "pandas": "2.2.3",
+  "sklearn": "1.8.0"
+}
