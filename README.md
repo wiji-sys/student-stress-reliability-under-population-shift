@@ -1,6 +1,6 @@
 # Reliable Student Stress Prediction under Population Shift
 
-Reproducibility repository for the study **“Reliable Student Stress Prediction under Population Shift: Calibration, Conformal Uncertainty, and Capacity-Constrained Decision Policies.”**
+Reproducibility repository for the study **“Reliable Student Stress Prediction under Population Shift”**
 
 The repository contains the complete E0–E7 experimental pipeline, precomputed outputs, publication figures/tables, and the reviewer-requested `Exam_Pressure` leakage audit.
 
